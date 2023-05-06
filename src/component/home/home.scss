@@ -1,0 +1,52 @@
+.first {
+  width: 100%;
+  position: relative;
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+
+  .box {
+    display: flex;
+
+    flex-direction: column;
+
+    .second {
+      display: flex;
+      flex-direction: column;
+      justify-items: auto;
+
+      input {
+        padding: 5px;
+        height: 32px;
+        width: 20rem;
+        border-radius: 7px;
+        margin: 10px 0px;
+        border: 1px solid;
+      }
+
+      button {
+        width: 10rem;
+        height: 27px;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        margin-left: 5rem;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        display: flex;
+        justify-content: center;
+      }
+
+      a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        font-size: 22px;
+      }
+    }
+  }
+}

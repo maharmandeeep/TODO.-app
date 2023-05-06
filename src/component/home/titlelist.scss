@@ -1,0 +1,38 @@
+.usercontainer {
+    display: flex;
+    background-color: grey;
+    padding: 7px 5px;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px 0px;
+    justify-content: space-between;
+
+  .data {
+   
+    font-size: inherit;
+    font-weight: inherit;
+   
+  }
+
+  .right{
+    display: flex;
+    width: 133px;
+    input{
+        height: 7vh;
+        width: 2vw;
+        margin-top: 6px;
+
+    }
+    button{
+        border: none;
+        background-color: grey;
+        font-size: 24px;
+        font-weight: 400;
+        margin-left: 10px;
+
+        &:hover{
+            color: white;
+        }
+    }
+  }
+}
